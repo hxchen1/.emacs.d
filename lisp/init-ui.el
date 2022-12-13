@@ -59,8 +59,14 @@
 ;; 这里的执行顺序非常重要，doom-modeline-mode 的激活时机一定要在设置global-mode-string 之后‘
 (use-package doom-modeline
   :ensure t
-
+  :custom-face
+(mode-line ((t (:height 0.9))))
+(mode-line-inactive ((t (:height 0.9))))
   :init
   (doom-modeline-mode t))
+
+(setq org-log-done t)
+(setq org-log-into-drawer t)
+
 
 (provide 'init-ui)

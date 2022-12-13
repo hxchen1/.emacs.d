@@ -16,6 +16,8 @@
 (require 'awesome-config)
 (require 'init-evil)
 (require 'init-explorer)
+(require 'init-org)
+(require 'init-ide)
 ;; load file
 
 ;; 开启server mode

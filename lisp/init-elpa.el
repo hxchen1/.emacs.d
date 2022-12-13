@@ -1,5 +1,6 @@
 (setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
-                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
+                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+			 ("nongnu" . "http://mirrors.ustc.edu.cn/elpa/nongnu/")))
 (package-initialize) ;; You might already have this line
 
 (setq package-check-signature nil) ;; 个别时候出现签名校验失败

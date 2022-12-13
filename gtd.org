@@ -1,0 +1,30 @@
+head
+** DONE STARTED hed
+- State "STARTED"    from "WAITING"    [2022-12-13 周二 15:44]
+*** head
+**** head
+
+C-c C-t | C-c C-s  TAB 
+* TODO Daily routine [0%]
+DEADLINE: <2022-12-13 周二 23:00> SCHEDULED: <2022-12-15 周四 20:00 +1d>
+:PROPERTIES:
+:RESET_CHECK_BOXES: true
+:LAST_REPEAT: [2022-12-13 周二 15:59]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-13 周二 15:59]
+:END:
+- State "DONE"       from "TODO"       [2022-12-13 周二 15:56]
+  - [ ] leetcode
+  - [ ] coding
+  - [ ] exercise
+    :true:
+
+  
+* Workspace
+
+** TODO [#B] learn English
+
+  
+ [2022-12-13 周二 16:11]
+
