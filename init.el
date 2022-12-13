@@ -6,6 +6,7 @@
 (awesome-tab-mode t)
 
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(setq make-backup-files nil)
 
 (require 'init-startup)
 (require 'init-elpa)
@@ -13,6 +14,8 @@
 (require 'init-ui)
 (require 'init-keyshort)
 (require 'awesome-config)
+(require 'init-evil)
+(require 'init-explorer)
 ;; load file
 
 ;; 开启server mode

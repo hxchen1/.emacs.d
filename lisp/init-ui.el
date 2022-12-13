@@ -1,5 +1,8 @@
-(use-package gruvbox-theme
-  :init (load-theme 'gruvbox-dark-soft))
+;(use-package gruvbox-theme
+;  :init (load-theme 'gruvbox-dark-soft 1))
+
+(use-package doom-themes)
+(load-theme 'doom-one 1)
 
 (use-package smart-mode-line
   :init
@@ -34,5 +37,30 @@
 
 ; 括号匹配
 (show-paren-mode t)
+
+
+; 高亮行号
+(global-hl-line-mode 1)
+
+
+(use-package simple
+  :ensure nil
+  :hook (after-init . size-indication-mode)
+  :init
+  (progn
+    (setq column-number-mode t)
+    ))
+
+;;modeline上显示我的所有的按键和执行的命令
+(package-install 'keycast)
+(add-to-list 'global-mode-string '("" keycast-mode-line))
+(keycast-mode t)
+
+;; 这里的执行顺序非常重要，doom-modeline-mode 的激活时机一定要在设置global-mode-string 之后‘
+(use-package doom-modeline
+  :ensure t
+
+  :init
+  (doom-modeline-mode t))
 
 (provide 'init-ui)

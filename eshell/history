@@ -30,3 +30,24 @@ git push -u origin main
 git push -u origin main
 git remote add gitee https://gitee.com/yellowfiish/emacs.git
 git push -u gitee main
+cs shell
+cd ..
+ls
+git clone --depth=1 https://github.com/manateelazycat/awesome-tab.git
+ls
+C_037.NLS 
+ls
+git add .
+git commit -m "add awesome-tab and config set backup file not make"
+git push -u origin main
+git push -u origin main
+cd E;
+cd E:
+ls
+ll
+ls
+cd work
+cd workspace
+ls
+tourch
+touch
