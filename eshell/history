@@ -8,3 +8,25 @@ dir
 ls
 vim init-keyshort.el
 emacs init-keyshort.el
+ls
+git
+git init
+ls
+git add /
+dit add .
+git add .
+git commit -m "first commit and add package evil"
+git branch -M main
+git remote add origin https://github.com/hxchen1/.emcas.d.git
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git remote -v
+git remote remove origin
+git remote -v
+git remote add origin https://github.com/hxchen1/.emacs.d.git
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git remote add gitee https://gitee.com/yellowfiish/emacs.git
+git push -u gitee main
