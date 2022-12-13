@@ -1,0 +1,10 @@
+dir
+ll
+ls
+dir
+ls
+cd lisp/
+dir
+ls
+vim init-keyshort.el
+emacs init-keyshort.el
